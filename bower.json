@@ -1,0 +1,23 @@
+{
+  "name": "arrowfodder",
+  "version": "0.1a1",
+  "homepage": "https://github.com/Colorless-Green-Ideas/ArrowFodder",
+  "authors": [
+    "jrabbit <jackjrabbit+github@gmail.com>"
+  ],
+  "description": "Arrovian UI and Data(base) research",
+  "main": "index.html",
+  "license": "AGPL v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-menu": "polymer/core-menu#~0.5.5",
+    "core-scaffold": "polymer/core-scaffold#~0.5.5",
+    "sortable-list": "divshot/sortable-list#~0.1.0"
+  }
+}
