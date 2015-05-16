@@ -9,6 +9,7 @@
 <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
 <link rel="import" href="bower_components/core-menu/core-submenu.html">
 <link rel="import" href="bower_components/sortable-list/sortable-list.html">
+<link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
 
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
@@ -51,8 +52,8 @@
     background-color: rgb(79, 125, 201);
   }
 </style>
-<polymer-element name="arrowfodder">
-
+<polymer-element name="arrow-fodder">
+<!-- Note: Custom element names must always contain a dash (-). -->
   <template>
   <sortable-list animation=3 handle="core-icon">
     <div><core-icon icon="menu"></core-icon> <content></content></div>
@@ -75,7 +76,7 @@
   <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
     <core-toolbar id="core_toolbar"></core-toolbar>
     <core-menu valueattr="label" id="core_menu" theme="core-light-theme">
-      <core-item id="core_item" icon="settings" label="Item1" horizontal center layout></core-item>
+      <core-item id="core_item" icon="settings" label="About" horizontal center layout></core-item>
       <core-item id="core_item1" icon="settings" label="Item2" horizontal center layout></core-item>
     </core-menu>
   </core-header-panel>
@@ -88,11 +89,17 @@
     <li>baz</li>
 
    </arrowfodder> -->
+
+    <h1>Weak Ordering</h1>
     <sortable-list animation=150 handle="core-icon">
     <div><core-icon icon="menu"></core-icon> First Item</div>
     <div><core-icon icon="menu"></core-icon> Second Item</div>
     <div><core-icon icon="menu"></core-icon> Third Item</div>
     </sortable-list>
+
+    <paper-dialog heading="Dialog Title">
+    <p>Some content</p>
+    </paper-dialog>
 </div>
 
 </core-scaffold>
