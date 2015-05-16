@@ -1,6 +1,6 @@
 {
   "name": "arrowfodder",
-  "version": "0.1a1",
+  "version": "0.1a2",
   "homepage": "https://github.com/Colorless-Green-Ideas/ArrowFodder",
   "authors": [
     "jrabbit <jackjrabbit+github@gmail.com>"
@@ -16,8 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "core-menu": "polymer/core-menu#~0.5.5",
-    "core-scaffold": "polymer/core-scaffold#~0.5.5",
+    "core-menu": "polymer/core-menu#~0.5.6",
+    "core-scaffold": "polymer/core-scaffold#~0.5.6",
     "sortable-list": "divshot/sortable-list#~0.1.0"
   }
 }
